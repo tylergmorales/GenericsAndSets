@@ -49,13 +49,16 @@ public class Startup {
         Dog d3 = new Dog("Rango", 1236);
         Dog d4 = new Dog("Remmy", 1237);
         Dog d5 = new Dog("Finn", 1235);
+        
         List<Dog> dogList = new ArrayList<>();
+        Set<Dog> dogSet = new HashSet<>();
+        
         dogList.add(d1);
         dogList.add(d2);
         dogList.add(d3);
         dogList.add(d4);
         dogList.add(d5);
-        Set<Dog> dogSet = new HashSet<>();
+        
         dogSet.addAll(dogList);
         
         
